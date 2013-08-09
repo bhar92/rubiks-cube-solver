@@ -438,4 +438,4 @@ if edgecheck:
 	finishedsolve = finishedsolve[:-1]
 	print(finishedsolve)
 else:
-	print("This cube is in an unsolveable state")
+	print("This cube is in an unsolvable state")
