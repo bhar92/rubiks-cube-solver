@@ -422,7 +422,6 @@ if edgecheck:
 							flip = 0
 							break
 				break
-
 	#answeroptimization and answer print
 	allfaces = ["U", "L", "F", "R", "B", "D", "M"]
 	for i in range(4):
