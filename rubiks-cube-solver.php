@@ -344,7 +344,7 @@ if ($edgecheck) {
 				elseif ($i != 8)
 					$finishedsolve .= $move[$edgechart[$i][1]] . $move[$edgechart[$i][0]];
 				if ($i != 8) {
-					$flip += 1;
+					$flip++;
 					$flip %= 2;
 				}
 			}
@@ -427,7 +427,7 @@ if ($edgecheck) {
 							$modyperm . $reversesetup[$cornerchart[$i][1]] .
 							$setup[$cornerchart[$i][2]] . $modyperm .
 							$reversesetup[$cornerchart[$i][2]];
-						$flip += 1;
+						$flip ++;
 						$flip %= 3;
 					}
 					elseif ($x == $cornersfinish[$i][2]) {
