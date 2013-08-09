@@ -157,7 +157,6 @@ $edgesfinish = [
 ];
 //unique edges and corners test
 if ($colourcheck) {
-	$uniquecheck = 0;
 	$uniquecorners = array();
 	$uniqueedges = array();
 	foreach ($corners as $i) {
