@@ -6,6 +6,7 @@
 import sys
 
 colourcheck = 0
+uniquecheck = 0
 permutationcheck = 0
 cornercheck = 0
 edgecheck = 0
@@ -155,7 +156,6 @@ edgesfinish = [
 ]
 #unique edges and corners test
 if colourcheck:
-	uniquecheck = 0
 	uniquecorners = []
 	uniqueedges = []
 	for i in corners:
