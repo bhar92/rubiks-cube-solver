@@ -361,7 +361,7 @@ if ($edgecheck) {
 					if (($i == 2 || $i == 10) && $counter % 2 == 1) {
 						if ($i == 2)
 							$finishedsolve .= $move[$edgechart[10][($j + $flip) % 2]];
-						elseif ($i == 10)
+						else
 							$finishedsolve .= $move[$edgechart[2][($j + $flip) % 2]];
 					}
 					else
