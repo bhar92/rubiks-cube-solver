@@ -26,6 +26,7 @@ foreach ($sides as $side) {
 	}
 }
 //making sure only 6 colours appear, there are 9 of each colour, and the centres are all different
+$centres = array_unique($centres);
 $colours = array_unique($basememory);
 $checksum = 0;
 if (count($colours) == 6 && count($centres) == 6) {
