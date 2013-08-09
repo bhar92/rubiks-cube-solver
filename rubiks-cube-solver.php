@@ -220,7 +220,7 @@ if ($uniquecheck) {
 				if ($newclist[$j] < $newclist[$min])
 					$min = $j;
 			}
-			if ($i != $min || $i > $min) {
+			if ($i != $min) {
 				$newclist = swap($newclist, $i, $min);
 				$ccheck++;
 			}
@@ -231,7 +231,7 @@ if ($uniquecheck) {
 				if ($newelist[$j] < $newelist[$min])
 					$min = $j;
 			}
-			if ($i != $min || $i > $min) {
+			if ($i != $min) {
 				$newelist = swap($newelist, $i, $min);
 				$echeck++;
 			}
