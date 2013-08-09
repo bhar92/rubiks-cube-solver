@@ -330,7 +330,7 @@ if ($edgecheck) {
 		"B' R' B M2 B' R B ", "B' R2 B M2 B' R2 B ", "B' R B U R2 U' M2 U R2 U' B' R' B ",
 		"U' L U M2 U' L' U ", "M2 D U R2 U' M' U R2 U' M D' ", "U R' U' M2 U R U' ",
 		"Set", "U R2 U' M2 U R2 U' ", "M U2 M U2 ", "U' L2 U M2 U' L2 U "
-		];
+	];
 	foreach ($edges as $x) {
 		$i++;
 		if (in_array($x, $edgesfinish[$i])) {
@@ -411,11 +411,11 @@ if ($edgecheck) {
 	$setup = [
 		"Set", "R D' ", "F ", "F R' ", "Set", "F2 ", "D2 R ", "D2 ", "F' D ", "F2 D ", "F D ", "D ",
 		"R' ", "R2 ", "R ", "", "R' F ", "Set", "D' R ", "D' ", "F' ", "D' F' ", "D2 F' ", "D F' "
-			];
+	];
 	$reversesetup = [	
 		"Set", "D R' ", "F' ", "R F' ", "Set", "F2 ", "R' D2 ", "D2 ", "D' F ", "D' F2 ", "D' F' ", "D' ",
 		"R ", "R2 ", "R' ", "", "F' R ", "Set", "R' D ", "D ", "F ", "F D ", "F D2 ", "F D' "
-			];
+	];
 	$modyperm = "R U' R' U' R U R' F' R U R' U' R' F R ";
 	foreach ($corners as $x) {
 		$i++;
