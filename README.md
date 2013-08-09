@@ -14,7 +14,7 @@ All of the colours you imput into the program will be stored in a hash array (di
 
 The letters represent the side the program is asking imput for (U is Up, L is Left, F is Face, R is Right, B is Back and D is Down) and the numbers represent to position of the side the program is asking imput for.  After you put in an imput, just press Enter or Return to go to the next requested position.  Do this until you finish D9.  I will now show what the program means by drawing out a crudely made diagram using just each side individually along with what will be the side above it and what will be the side below it if you are looking directly at the side:
 
-
+=-=-=-=-=-=-=-=-=-=
 
 Back side is above
 
@@ -26,7 +26,7 @@ U7 U8 U9
 
 Front side is below
 
-
+=-=-=-=-=-=-=-=-=-=
 
 Up side is above
 
@@ -38,7 +38,7 @@ L7 L8 L9
 
 Down side is below
 
-
+=-=-=-=-=-=-=-=-=-=
 
 Up side is above
 
@@ -50,7 +50,7 @@ F7 F8 F9
 
 Down side is below
 
-
+=-=-=-=-=-=-=-=-=-=
 
 Up side is above
 
@@ -62,7 +62,7 @@ R7 R8 R9
 
 Down side is below
 
-
+=-=-=-=-=-=-=-=-=-=
 
 Up side is above
 
@@ -74,7 +74,7 @@ B7 B8 B9
 
 Down side is below
 
-
+=-=-=-=-=-=-=-=-=-=
 
 Front is above
 
@@ -86,7 +86,7 @@ D7 D8 D9
 
 Back is below
 
-
+=-=-=-=-=-=-=-=-=-=
 
 You can enter whatever you want as the name of each colour, but the colour names must be consistant, so you must have 6 different colour names and 9 of each colour name and the centres must all be different.  If the cube does not meet these conditions or the cube is not in a solvable state or has any duplicate pieces, the program will print "This cube is in an unsolvable state!".
 
