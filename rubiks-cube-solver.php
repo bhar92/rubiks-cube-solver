@@ -258,8 +258,8 @@ if ($permutationcheck) {
 		$cornercheck = 1;
 }
 //making sure edges are legal
-$checksum = 0;
 if ($cornercheck) {
+	$checksum = 0;
 	if ($basememory["U2"] == $basememory["U5"] || $basememory["U2"] == $basememory["D5"])
 		$checksum ++;
 	elseif ($basememory["B2"] != $basememory["U5"] && $basememory["B2"] != $basememory["D5"] && ($basememory["U2"] == $basememory["F5"] || $basememory["U2"] == $basememory["B5"]))
