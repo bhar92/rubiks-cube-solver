@@ -19,7 +19,9 @@ The letters represent the side the program is asking imput for (U is Up, L is Le
 Back side is above
 
 U1 U2 U3
+
 U4 U5 U6 - When looking directly at Up side
+
 U7 U8 U9
 
 Front side is below
@@ -29,7 +31,9 @@ Front side is below
 Up side is above
 
 L1 L2 L3
+
 L4 L5 L6 - When looking directly at Left side
+
 L7 L8 L9
 
 Down side is below
@@ -39,7 +43,9 @@ Down side is below
 Up side is above
 
 F1 F2 F3
+
 F4 F5 F6 - When looking directly at Front side
+
 F7 F8 F9
 
 Down side is below
@@ -49,7 +55,9 @@ Down side is below
 Up side is above
 
 R1 R2 R3
+
 R4 R5 R6 - When looking directly at Right side
+
 R7 R8 R9
 
 Down side is below
@@ -59,7 +67,9 @@ Down side is below
 Up side is above
 
 B1 B2 B3
+
 B4 B5 B6 - When looking directly at Back side
+
 B7 B8 B9
 
 Down side is below
@@ -69,7 +79,9 @@ Down side is below
 Front is above
 
 D1 D2 D3
+
 D4 D5 D6 - When looking directly at Down side
+
 D7 D8 D9
 
 Back is below
