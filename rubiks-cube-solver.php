@@ -7,6 +7,7 @@
  */
 
 $colourcheck = 0;
+$uniquecheck = 0;
 $permutationcheck = 0;
 $cornercheck = 0;
 $edgecheck = 0;
