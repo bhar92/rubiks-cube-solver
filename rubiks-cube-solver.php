@@ -57,9 +57,9 @@ $cornersfinish = array(
 		array($basememory["B5"], $basememory["U5"], $basememory["L5"])
 	),
 	array(
-		[$basememory["U5"], $basememory["B5"], $basememory["R5"]),
-		[$basememory["B5"], $basememory["R5"], $basememory["U5"]),
-		[$basememory["R5"], $basememory["U5"], $basememory["B5"])
+		array($basememory["U5"], $basememory["B5"], $basememory["R5"]),
+		array($basememory["B5"], $basememory["R5"], $basememory["U5"]),
+		array($basememory["R5"], $basememory["U5"], $basememory["B5"])
 	),
 	array(
 		array($basememory["U5"], $basememory["R5"], $basememory["F5"]),
@@ -414,7 +414,7 @@ if ($edgecheck) {
 	$solvedcorners = array();
 	$cornerchart = array(
 		array(0, 4, 17), array(1, 16, 13), array(2, 12, 9), array(3, 8, 5),
-		array(20, 6, 11]), array(21, 10, 15), array(22, 14, 19), array(23, 18, 7)
+		array(20, 6, 11), array(21, 10, 15), array(22, 14, 19), array(23, 18, 7)
 	);
 	$setup = array(
 		"Set", "R D' ", "F ", "F R' ", "Set", "F2 ", "D2 R ", "D2 ", "F' D ", "F2 D ", "F D ", "D ",
