@@ -436,6 +436,9 @@ if edgecheck:
                         finishedsolve = finishedsolve.replace(z + "' " + z + "' ", z + "2 ")
                         finishedsolve = finishedsolve.replace(z + " " + z + " ", z + "2 ")
 	finishedsolve = finishedsolve[:-1]
-	print(finishedsolve)
+	if finishedsolve = "":
+		print("This cube is already solved!")
+	else:
+		print(finishedsolve)
 else:
 	print("This cube is in an unsolvable state")
