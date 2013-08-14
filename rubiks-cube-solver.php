@@ -39,122 +39,122 @@ if (count($colours) == 6 && count($centres) == 6) {
 	}
 }
 //setup of corners and edges
-$corners = [
-	[$basememory["U1"], $basememory["L1"], $basememory["B3"]],
-	[$basememory["U3"], $basememory["B1"], $basememory["R3"]],
-	[$basememory["U9"], $basememory["R1"], $basememory["F3"]],
-	[$basememory["U7"], $basememory["F1"], $basememory["L3"]],
-	[$basememory["D1"], $basememory["L9"], $basememory["F7"]],
-	[$basememory["D3"], $basememory["F9"], $basememory["R7"]],
-	[$basememory["D9"], $basememory["R9"], $basememory["B7"]],
-	[$basememory["D7"], $basememory["B9"], $basememory["L7"]]
-];
-$cornersfinish = [
-	[
-		[$basememory["U5"], $basememory["L5"], $basememory["B5"]],
-		[$basememory["L5"], $basememory["B5"], $basememory["U5"]],
-		[$basememory["B5"], $basememory["U5"], $basememory["L5"]]
-	],
-	[
-		[$basememory["U5"], $basememory["B5"], $basememory["R5"]],
-		[$basememory["B5"], $basememory["R5"], $basememory["U5"]],
-		[$basememory["R5"], $basememory["U5"], $basememory["B5"]]
-	],
-	[
-		[$basememory["U5"], $basememory["R5"], $basememory["F5"]],
-		[$basememory["R5"], $basememory["F5"], $basememory["U5"]],
-		[$basememory["F5"], $basememory["U5"], $basememory["R5"]]
-	],
-	[
-		[$basememory["U5"], $basememory["F5"], $basememory["L5"]],
-		[$basememory["F5"], $basememory["L5"], $basememory["U5"]],
-		[$basememory["L5"], $basememory["U5"], $basememory["F5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["L5"], $basememory["F5"]],
-		[$basememory["L5"], $basememory["F5"], $basememory["D5"]],
-		[$basememory["F5"], $basememory["D5"], $basememory["L5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["F5"], $basememory["R5"]],
-		[$basememory["F5"], $basememory["R5"], $basememory["D5"]],
-		[$basememory["R5"], $basememory["D5"], $basememory["F5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["R5"], $basememory["B5"]],
-		[$basememory["R5"], $basememory["B5"], $basememory["D5"]],
-		[$basememory["B5"], $basememory["D5"], $basememory["R5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["B5"], $basememory["L5"]],
-		[$basememory["B5"], $basememory["L5"], $basememory["D5"]],
-		[$basememory["L5"], $basememory["D5"], $basememory["B5"]]
-	]
-];
-$edges = [
-	[$basememory["U2"], $basememory["B2"]],
-	[$basememory["U6"], $basememory["R2"]],
-	[$basememory["U8"], $basememory["F2"]],
-	[$basememory["U4"], $basememory["L2"]],
-	[$basememory["B6"], $basememory["L4"]],
-	[$basememory["B4"], $basememory["R6"]],
-	[$basememory["F6"], $basememory["R4"]],
-	[$basememory["F4"], $basememory["L6"]],
-	[$basememory["D2"], $basememory["F8"]],
-	[$basememory["D6"], $basememory["R8"]],
-	[$basememory["D8"], $basememory["B8"]],
-	[$basememory["D4"], $basememory["L8"]]
-];
+$corners = array(
+	array($basememory["U1"], $basememory["L1"], $basememory["B3"]),
+	array($basememory["U3"], $basememory["B1"], $basememory["R3"]),
+	array($basememory["U9"], $basememory["R1"], $basememory["F3"]),
+	array($basememory["U7"], $basememory["F1"], $basememory["L3"]),
+	array($basememory["D1"], $basememory["L9"], $basememory["F7"]),
+	array($basememory["D3"], $basememory["F9"], $basememory["R7"]),
+	array($basememory["D9"], $basememory["R9"], $basememory["B7"]),
+	array($basememory["D7"], $basememory["B9"], $basememory["L7"])
+);
+$cornersfinish = array(
+	array(
+		array($basememory["U5"], $basememory["L5"], $basememory["B5"]),
+		array($basememory["L5"], $basememory["B5"], $basememory["U5"]),
+		array($basememory["B5"], $basememory["U5"], $basememory["L5"])
+	),
+	array(
+		[$basememory["U5"], $basememory["B5"], $basememory["R5"]),
+		[$basememory["B5"], $basememory["R5"], $basememory["U5"]),
+		[$basememory["R5"], $basememory["U5"], $basememory["B5"])
+	),
+	array(
+		array($basememory["U5"], $basememory["R5"], $basememory["F5"]),
+		array($basememory["R5"], $basememory["F5"], $basememory["U5"]),
+		array($basememory["F5"], $basememory["U5"], $basememory["R5"])
+	),
+	array(
+		array($basememory["U5"], $basememory["F5"], $basememory["L5"]),
+		array($basememory["F5"], $basememory["L5"], $basememory["U5"]),
+		array($basememory["L5"], $basememory["U5"], $basememory["F5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["L5"], $basememory["F5"]),
+		array($basememory["L5"], $basememory["F5"], $basememory["D5"]),
+		array($basememory["F5"], $basememory["D5"], $basememory["L5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["F5"], $basememory["R5"]),
+		array($basememory["F5"], $basememory["R5"], $basememory["D5"]),
+		array($basememory["R5"], $basememory["D5"], $basememory["F5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["R5"], $basememory["B5"]),
+		array($basememory["R5"], $basememory["B5"], $basememory["D5"]),
+		array($basememory["B5"], $basememory["D5"], $basememory["R5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["B5"], $basememory["L5"]),
+		array($basememory["B5"], $basememory["L5"], $basememory["D5"]),
+		array($basememory["L5"], $basememory["D5"], $basememory["B5"])
+	)
+);
+$edges = array(
+	array($basememory["U2"], $basememory["B2"]),
+	array($basememory["U6"], $basememory["R2"]),
+	array($basememory["U8"], $basememory["F2"]),
+	array($basememory["U4"], $basememory["L2"]),
+	array($basememory["B6"], $basememory["L4"]),
+	array($basememory["B4"], $basememory["R6"]),
+	array($basememory["F6"], $basememory["R4"]),
+	array($basememory["F4"], $basememory["L6"]),
+	array($basememory["D2"], $basememory["F8"]),
+	array($basememory["D6"], $basememory["R8"]),
+	array($basememory["D8"], $basememory["B8"]),
+	array($basememory["D4"], $basememory["L8"])
+);
 $edgesfinish = [
-	[
-		[$basememory["U5"], $basememory["B5"]],
-		[$basememory["B5"], $basememory["U5"]]
-	],
-	[
-		[$basememory["U5"], $basememory["R5"]],
-		[$basememory["R5"], $basememory["U5"]]
-	],
-	[
-		[$basememory["U5"], $basememory["F5"]],
-		[$basememory["F5"], $basememory["U5"]]
-	],
-	[
-		[$basememory["U5"], $basememory["L5"]],
-		[$basememory["L5"], $basememory["U5"]]
-	],
-	[
-		[$basememory["B5"], $basememory["L5"]],
-		[$basememory["L5"], $basememory["B5"]]
-	],
-	[
-		[$basememory["B5"], $basememory["R5"]],
-		[$basememory["R5"], $basememory["B5"]]
-	],
-	[
-		[$basememory["F5"], $basememory["R5"]],
-		[$basememory["R5"], $basememory["F5"]]
-	],
-	[
-		[$basememory["F5"], $basememory["L5"]],
-		[$basememory["L5"], $basememory["F5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["F5"]],
-		[$basememory["F5"], $basememory["D5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["R5"]],
-		[$basememory["R5"], $basememory["D5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["B5"]],
-		[$basememory["B5"], $basememory["D5"]]
-	],
-	[
-		[$basememory["D5"], $basememory["L5"]],
-		[$basememory["L5"], $basememory["D5"]]
-	]
-];
+	array(
+		array($basememory["U5"], $basememory["B5"]),
+		array($basememory["B5"], $basememory["U5"])
+	),
+	array(
+		array($basememory["U5"], $basememory["R5"]),
+		array($basememory["R5"], $basememory["U5"])
+	),
+	array(
+		array($basememory["U5"], $basememory["F5"]),
+		array($basememory["F5"], $basememory["U5"])
+	),
+	array(
+		array($basememory["U5"], $basememory["L5"]),
+		array($basememory["L5"], $basememory["U5"])
+	),
+	array(
+		array($basememory["B5"], $basememory["L5"]),
+		array($basememory["L5"], $basememory["B5"])
+	),
+	array(
+		array($basememory["B5"], $basememory["R5"]),
+		array($basememory["R5"], $basememory["B5"])
+	),
+	array(
+		array($basememory["F5"], $basememory["R5"]),
+		array($basememory["R5"], $basememory["F5"])
+	),
+	array(
+		array($basememory["F5"], $basememory["L5"]),
+		array($basememory["L5"], $basememory["F5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["F5"]),
+		array($basememory["F5"], $basememory["D5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["R5"]),
+		array($basememory["R5"], $basememory["D5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["B5"]),
+		array($basememory["B5"], $basememory["D5"])
+	),
+	array(
+		array($basememory["D5"], $basememory["L5"]),
+		array($basememory["L5"], $basememory["D5"])
+	)
+);
 //unique edges and corners test
 if ($colourcheck) {
 	$uniquecorners = array();
@@ -321,8 +321,12 @@ if ($edgecheck) {
 	$solvededges = array();
 	$counter = 0;
 	$finishedsolve = "";
-	$edgechart = [[0, 16], [1, 12], [2, 8], [3, 4], [17, 7], [19, 13], [9, 15], [11, 5], [20, 10], [21, 14], [22, 18], [23, 6]];
-	$move = [
+	$edgechart = array(
+		array(0, 16), array(1, 12), array(2, 8), array(3, 4),
+		array(17, 7), array(19, 13), array(9, 15), array(11, 5),
+		array(20, 10), array(21, 14), array(22, 18), array(23, 6)
+	);
+	$move = array(
 		"M2 ", "R' U R U' M2 U R' U' R ", "U2 M' U2 M' ", "L U' L' U M2 U' L U L' ",
 		"B L' B' M2 B L B' ", "B L2 B' M2 B L2 B' ", "B L B' M2 B L' B' ",
 		"L' B L B' M2 B L' B' L ", "D M' U R2 U' M U R2 U' D' M2 ", "U R U' M2 U R' U' ",
@@ -330,7 +334,7 @@ if ($edgecheck) {
 		"B' R' B M2 B' R B ", "B' R2 B M2 B' R2 B ", "B' R B U R2 U' M2 U R2 U' B' R' B ",
 		"U' L U M2 U' L' U ", "M2 D U R2 U' M' U R2 U' M D' ", "U R' U' M2 U R U' ",
 		"Set", "U R2 U' M2 U R2 U' ", "M U2 M U2 ", "U' L2 U M2 U' L2 U "
-	];
+	);
 	foreach ($edges as $x) {
 		$i++;
 		if (in_array($x, $edgesfinish[$i])) {
@@ -407,15 +411,18 @@ if ($edgecheck) {
 	$flip = 0;
 	$i = -1;
 	$solvedcorners = array();
-	$cornerchart = [[0, 4, 17], [1, 16, 13], [2, 12, 9], [3, 8, 5], [20, 6, 11], [21, 10, 15], [22, 14, 19], [23, 18, 7]];
-	$setup = [
+	$cornerchart = array(
+		array(0, 4, 17), array(1, 16, 13), array(2, 12, 9), array(3, 8, 5),
+		array(20, 6, 11]), array(21, 10, 15), array(22, 14, 19), array(23, 18, 7)
+	);
+	$setup = array(
 		"Set", "R D' ", "F ", "F R' ", "Set", "F2 ", "D2 R ", "D2 ", "F' D ", "F2 D ", "F D ", "D ",
 		"R' ", "R2 ", "R ", "", "R' F ", "Set", "D' R ", "D' ", "F' ", "D' F' ", "D2 F' ", "D F' "
-	];
-	$reversesetup = [	
+	);
+	$reversesetup = array(	
 		"Set", "D R' ", "F' ", "R F' ", "Set", "F2 ", "R' D2 ", "D2 ", "D' F ", "D' F2 ", "D' F' ", "D' ",
 		"R ", "R2 ", "R' ", "", "F' R ", "Set", "R' D ", "D ", "F ", "F D ", "F D2 ", "F D' "
-	];
+	);
 	$modyperm = "R U' R' U' R U R' F' R U R' U' R' F R ";
 	foreach ($corners as $x) {
 		$i++;
@@ -478,7 +485,7 @@ if ($edgecheck) {
 		}
 	}
 	//answer optimization and answer print
-	$allfaces = ["U", "L", "F", "R", "B", "D", "M"];
+	$allfaces = array("U", "L", "F", "R", "B", "D", "M");
 	for($i = 0; $i < 4; $i++) {
 		foreach ($allfaces as $z) {
 			$finishedsolve = str_replace($z . "2 " . $z . "2 ", "", $finishedsolve);
