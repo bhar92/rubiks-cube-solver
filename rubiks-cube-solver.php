@@ -32,7 +32,8 @@ $colours = array_unique($basememory);
 $checksum = 0;
 if (count($colours) == 6 && count($centres) == 6) {
 	foreach ($colours as $colour) {
-		if (array_count_values($basememory)[$colour] == 9)
+		$ninecolours = array_count_values($basememory);
+		if ($ninecolours[$colour] == 9)
 			$checksum ++;
 		if ($checksum == 6)
 			$colourcheck = 1;
