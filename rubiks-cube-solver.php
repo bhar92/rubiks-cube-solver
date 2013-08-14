@@ -501,7 +501,10 @@ if ($edgecheck) {
 		}
 	}
 	$finishedsolve = substr_replace($finishedsolve, "", -1);
-	echo $finishedsolve . "\n";
+	if ($finishedsolve == "")
+		echo "This cube is already solved!\n";
+	else
+		echo $finishedsolve . "\n";
 }
 else
 echo "This cube is in an unsolvable state!\n";
