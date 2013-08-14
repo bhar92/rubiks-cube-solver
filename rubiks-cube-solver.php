@@ -106,7 +106,7 @@ $edges = array(
 	array($basememory["D8"], $basememory["B8"]),
 	array($basememory["D4"], $basememory["L8"])
 );
-$edgesfinish = [
+$edgesfinish = array(
 	array(
 		array($basememory["U5"], $basememory["B5"]),
 		array($basememory["B5"], $basememory["U5"])
