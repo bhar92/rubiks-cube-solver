@@ -507,5 +507,5 @@ if ($edgecheck) {
 		echo $finishedsolve . "\n";
 }
 else
-echo "This cube is in an unsolvable state!\n";
+	echo "This cube is in an unsolvable state!\n";
 ?>
