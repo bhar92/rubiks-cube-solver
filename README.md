@@ -1,4 +1,4 @@
-Rubik's Cube Solver(s) created by Paul Schimmelpfenning and is licensed under the GNU AGPLv3 or Later License. See the Copyright file.
+Rubik's Cube Solver(s) created by Paul Schimmelpfenning and is licensed under the GNU AGPLv3 or Later License. See the COPYRIGHT file.
 
 My website is at http://www.pjschim.com and you can fill out the contact form if you have any questions or concerns about this program or if you found a bug or error message that needs to be fixed.
 
