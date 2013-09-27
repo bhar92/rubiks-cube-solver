@@ -1,8 +1,6 @@
-Rubik's Cube Solver(s) created by Paul Schimmelpfenning and is licensed under the Creative Commons BY-NC-SA 3.0 License - http://creativecommons.org/licenses/by-nc-sa/3.0/ My website is at http://www.pjschim.com and you can fill out the contact form if you have any questions or concerns about this program or if you found a bug or error message that needs to be fixed.
+Rubik's Cube Solver(s) created by Paul Schimmelpfenning and is licensed under the GNU AGPLv3 or Later License. See the Copyright file.
 
-You may use, modify, and redistribute any of the code from my Rubik's Cube Solver program(s) for any non-commercial use as long as I am credited as the creator of the calendar calculator program and this same license must be on any copied or modified version of this program, as per the rules of the license.
-
-Using this program in any way assumes you agree to all the licensing conditions of this program.
+My website is at http://www.pjschim.com and you can fill out the contact form if you have any questions or concerns about this program or if you found a bug or error message that needs to be fixed.
 
 This program works in PHP, Python 2.X and Python 3.X
 
