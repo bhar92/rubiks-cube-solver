@@ -2,7 +2,7 @@
 
 /*
    Program Created by Paul Schimmelpfenning and is licensed under the 
-   Affero General Public License version 3 or later License.
+   GNU Affero General Public License version 3 or later License.
    See the Copyright file.
    My website is at http://www.pjschim.com
  */
