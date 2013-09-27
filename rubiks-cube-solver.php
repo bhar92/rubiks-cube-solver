@@ -2,7 +2,8 @@
 
 /*
    Program Created by Paul Schimmelpfenning and is licensed under the 
-   Creative Commons BY-NC-SA 3.0 License - http://creativecommons.org/licenses/by-nc-sa/3.0/
+   Affero General Public License version 3 or later License.
+   See the Copyright file.
    My website is at http://www.pjschim.com
  */
 
